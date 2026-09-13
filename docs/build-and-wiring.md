@@ -33,7 +33,8 @@ page and the page cannot leak into anything else on the funnel.
 ### Landing pages (all four)
 
 Point every `href="#claim"` at the step 2 (lead capture) URL. There are **5 per page**:
-nav CTA, hero, offer card, final CTA, and the sticky mobile bar.
+nav CTA, hero, offer card, final CTA, and the sticky mobile bar. The cosmetic page has a
+**sixth**, a mid-page CTA after the "How it works" section.
 
 All four landing pages point at the **same** step 2. The lead, checkout and
 confirmation steps are shared across avatars.
