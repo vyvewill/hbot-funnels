@@ -2,3 +2,7 @@
 .claude/skills/impeccable
 # Local impeccable state
 .impeccable/config.local.json
+# Impeccable build and review captures (large PNGs, regenerated per session)
+.impeccable/review/
+.impeccable/build/
+.impeccable/mocks/
