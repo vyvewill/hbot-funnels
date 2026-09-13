@@ -1,0 +1,4 @@
+# Linked design skill (symlink into a local checkout; install per-machine)
+.claude/skills/impeccable
+# Local impeccable state
+.impeccable/config.local.json
