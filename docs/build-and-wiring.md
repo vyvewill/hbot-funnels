@@ -4,6 +4,19 @@ Seven pages, light theme, in funnel order. Each file is **one self-contained blo
 the font import, all CSS, the markup and the JavaScript are in the single file.
 Nothing external needs to be hosted.
 
+## Previewing locally
+
+The files carry no `<html>`, `<head>`, viewport meta or `<body>`; GHL supplies
+those. To see a page the way GHL will render it (including on mobile), run the
+preview server, which wraps each file in the same skeleton:
+
+```
+node dev/serve.js        # http://localhost:8080/
+```
+
+Opening a page file directly in a browser renders it at desktop width on a phone
+because the viewport meta tag is missing, so use the server for mobile checks.
+
 ## How to paste each one
 
 1. Create a new **blank** funnel step. Remove the default section padding.
@@ -19,8 +32,8 @@ page and the page cannot leak into anything else on the funnel.
 
 ### Landing pages (all four)
 
-Point every `href="#claim"` at the step 2 (lead capture) URL. There are **6 per page**:
-nav CTA, hero, offer card, capacity block, final CTA, and the sticky mobile bar.
+Point every `href="#claim"` at the step 2 (lead capture) URL. There are **5 per page**:
+nav CTA, hero, offer card, final CTA, and the sticky mobile bar.
 
 All four landing pages point at the **same** step 2. The lead, checkout and
 confirmation steps are shared across avatars.
